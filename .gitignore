@@ -1,0 +1,40 @@
+# 🛠 Terraform system files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+crash.log
+
+# 💾 Terraform variable files (optional: include tfvars if sanitized)
+*.tfvars
+*.auto.tfvars
+*.tfvars.json
+
+# 🔧 Local configs
+terraform.tfvars
+*.log
+
+# 📷 Screenshots (only ignore RAW image dumps if needed)
+**/screenshots/**/*.psd
+**/screenshots/**/*.xcf
+**/screenshots/**/*_raw.png
+**/screenshots/**/*_raw.jpg
+
+# 🗃 Windows artifacts
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# 🔍 Editor/IDE junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🔒 Credentials or secrets (just in case)
+*.pem
+*.key
+*.crt
+*.pfx
+*.env
